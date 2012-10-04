@@ -1,0 +1,19 @@
+/* custom styling to go here */
+small{
+	margin-top: 50px;
+}
+p.sub{
+	margin-top: -20px;
+	font-size: 30px;
+}
+ul.sub{
+	font-size: 80%;
+}
+ul.list{
+	margin-top: 30px;
+}
+li.desc{
+	font-style: italic;
+	list-style: none;
+	margin-top: 30px;
+}

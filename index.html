@@ -10,6 +10,7 @@
 	<link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="css/reveal.css">
 	<link rel="stylesheet" href="css/theme/default.css" id="theme">
+	<link rel="stylesheet" href="css/custom.css">
 	<!-- For syntax highlighting -->
 	<link rel="stylesheet" href="lib/css/zenburn.css">
 	<!-- If the query includes 'print-pdf', use the PDF print sheet -->
@@ -29,75 +30,69 @@
 			<section>
 			<section>
 				<h1>Stephen Riley</h1>
-				<p class="font2">Experienced Front-end Web Developer with extensive knowledge of W3C Standards based development of XHTML / HTML5 and CSS. Possessing a range of technical, design and marketing skills developed while working in financial, media, marketing and e-learning environments.</p>
-				<br><br>
-				<p class="font5">Use the arrow keys to navigate or swipe gestures on your mobile</p>
+				<p>Experienced Front-end Web Developer with extensive knowledge of W3C Standards based development of XHTML / HTML5 and CSS. Possessing a range of technical, design and marketing skills developed while working in financial, media, marketing and e-learning environments.</p>
+				<small>Use the arrow keys to navigate or swipe gestures on your mobile</small>
 				<script>
 					// Delicously hacky. Look away.
 					if( navigator.userAgent.match( /(iPhone|iPad|iPod|Android)/i ) ) document.write( '<p style="color: rgba(0,0,0,0.3); text-shadow: none;">('+'Tap to navigate'+')</p>' );
 				</script>
 			</section>
 			</section>
-			<section>
+			<section data-state="alert">
 				<h2>Employment</h2>
-				<p class="font2">Places I've worked...</p>
+				<p class="sub">Places I've worked&hellip;</p>
 				<section>
-					<br>
-					<ul style="line-height:50px">
-						<li>MEN Media
-							<ul>
+					<ul class="list">
+						<li><strong>MEN Media</strong>
+							<ul class="sub">
 								<li>June 2007 – Present</li>
 								<li>Front-end Web Developer</li>
 							</ul>
 						</li>
-						<li>XHTML / CSS / JavaScript developments for Manchester Evening News, Channel M, CityLife, GMWN Weeklies, HomesMine &amp; The JobsMine.</li>
+						<li class="desc">XHTML / CSS / JavaScript developments for Manchester Evening News, Channel M, CityLife, GMWN Weeklies, HomesMine &amp; The JobsMine.</li>
 					</ul>
-					<br><br>
-					<p class="font5">Press down for further employment history</p>
+					<small>Press down for further employment history</small>
 				</section>
 				<section>
-					<br>
-					<ul style="line-height:50px">
-						<li>Co-operative Financial Services
-							<ul>
+					<ul class="list">
+						<li><strong>Co-operative Financial Services</strong>
+							<ul class="sub">
 								<li>Nov 2004 – June 2007</li>
 								<li>Web Adviser / IS Web Developer</li>
 							</ul>
 						</li>
-						<li>Developer for the CFS portfolio (Co-operative Bank, CIS Insurance &amp; smile.co.uk). Accessible HTML development to W3C standards adopted. Personally responsible for developing critical departmental PHP scheduling application for managing departmental workload</li>
+						<li class="desc">Developer for the CFS portfolio (Co-operative Bank, CIS Insurance &amp; smile.co.uk). Accessible HTML development to W3C standards adopted. Personally responsible for developing critical departmental PHP scheduling application for managing departmental workload</li>
 					</ul>
 				</section>
 				<section>
-					<br>
-					<ul style="line-height:50px">
-						<li>Multimedia Marketing.Com
-							<ul>
+					<ul class="list">
+						<li><strong>Multimedia Marketing.Com</strong>
+							<ul class="sub">
 								<li>Sept 2003 – Nov 2004</li>
 								<li>Flash Developer</li>
 							</ul>
 						</li>
-						<li>Flash / ActionScript development on the world's first Arabic online HND eLearning Marketing tutorials for the Middle East. Experience with working on bespoke Learning Management System.</li>
+						<li class="desc">Flash / ActionScript development on the world's first Arabic online HND eLearning Marketing tutorials for the Middle East. Experience with working on bespoke Learning Management System.</li>
 					</ul>
 				</section>
 				<section>
-					<br>
-					<ul style="line-height:50px">
-						<li>Multimedia Marketing.Com
-							<ul>
+					<ul class="list">
+						<li><strong>Multimedia Marketing.Com</strong>
+							<ul class="sub">
 								<li>Aug 2001 – Sept 2002</li>
 								<li>Flash Developer</li>
 							</ul>
 						</li>
-						<li>Industrial experience, Flash / ActionScript production of Edexcel HND online tutorials teaching marketing. Administration of Lotus LearningSpace 5.</li>
+						<li class="desc">Industrial experience, Flash / ActionScript production of Edexcel HND online tutorials teaching marketing. Administration of Lotus LearningSpace 5.</li>
 					</ul>
 				</section>
 			</section>
 
-			<section>
+			<section data-state="blackout">
 				<h2>Education</h2>
+				<p class="sub">What I've studied&hellip;</p>
 				<section>
-					<br>
-					<ul style="line-height:50px">
+					<ul class="list">
 						<li>2:1 BSc (Hons) Information Systems
 							<ul>
 								<li>1999 – 2003</li>
@@ -107,8 +102,7 @@
 					</ul>
 				</section>
 				<section>
-					<br>
-					<ul style="line-height:50px">
+					<ul class="list">
 						<li>4 A-Levels - Art, General Studies, Information Technology, Media Studies
 							<ul>
 								<li>1997 – 1999</li>
@@ -118,8 +112,7 @@
 					</ul>
 				</section>
 				<section>
-					<br>
-					<ul style="line-height:50px">
+					<ul class="list">
 						<li>9 Honours Level GCSE's
 							<ul>
 								<li>1992 – 1997</li>
@@ -130,11 +123,24 @@
 				</section>
 			</section>
 
-			<section>
+			<section data-state="soothe">
 				<h2>Skill Set</h2>
+				<p class="sub">Things I work with&hellip;</p>
 				<section>
-					<br>
-					<ul style="line-height:50px">
+					<ul class="list">
+						<li>Languages
+							<ul>
+								<li>CSS / HTML5</li>
+								<li>JavaScript / jQuery / Prototype</li>
+								<li>PHP / CodeIgniter</li>
+								<li>MySQL</li>
+								<li>XML</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+				<section>
+					<ul class="list">
 						<li>Software
 							<ul>
 								<li>Aptana IDE</li>
@@ -147,27 +153,13 @@
 						</li>
 					</ul>
 				</section>
-				<section>
-					<br>
-					<ul style="line-height:50px">
-						<li>Languages
-							<ul>
-								<li>CSS / HTML5</li>
-								<li>JavaScript / jQuery / Prototype</li>
-								<li>PHP / CodeIgniter</li>
-								<li>MySQL</li>
-								<li>XML</li>
-							</ul>
-						</li>
-					</ul>
-				</section>
 			</section>
 
 			<section>
 				<h2>Interests</h2>
+				<p class="sub">I like this stuff&hellip;</p>
 				<section>
-					<br><br>
-					<p style="font-size: 28pt">Home brewing, Football, Formula One, Manchester culture, Poker, Video Gaming, Web Design, Web Innovation</p>
+					<p>Home brewing, Football, Formula One, Manchester culture, Poker, Video Gaming, Web Design, Web Innovation</p>
 				</section>
 			</section>
 
